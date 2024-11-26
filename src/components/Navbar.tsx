@@ -10,8 +10,8 @@ import { IoCloseSharp } from "react-icons/io5";
 const navigation = [
   {nav: "Home", link: "/"},
   {nav: "About", link: "/about"},
-  {nav: "Get in touch", link: "/contactus"},
-  {nav: "FAQs", link: "/faq"},
+  {nav: "Get in touch", link: "/"},
+  {nav: "FAQs", link: "/"},
 ]
 const Navbar = () => {
   const path = usePathname()

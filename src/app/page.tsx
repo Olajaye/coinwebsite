@@ -47,7 +47,7 @@ export default function Home() {
         <div className="container mx-auto px-4 xl:flex justify-between">
           <div className="xl:max-w-[50%] sm:max-w-[80%]">
             <h1 className="text-3xl md:text-6xl font-semibold mb-3">
-              <span className="font-normal text-textyellow">Best Place</span> Buy And Sell Crypto Currency Assest
+              <span className="font-extrabold text-textyellow">Best Place</span> Buy And Sell Crypto Currency Assest
             </h1>
             <p className="mb-5 text-[#545D70] font-normal text-base xl:text-lg">
               Expand your reach with COINNet, where you can buy, sell, and engage in P2P trading. Access both American and crypto markets seamlessly through a multi-currency account.
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 mt-16">
         <div className="xl:flex justify-between items-centern my-7">
           <div className="xl:w-[50%] flex justify-center items-center xl:justify-start xl:items-start">
             <Image src={'/chatImage.svg'} alt="image" width={600} height={400}/>
@@ -131,7 +131,7 @@ export default function Home() {
 
       <section className='container mx-auto px-4'>
         <div className="text-center">
-          <h4 className="text-textyellow text-xl xl:text-3xl font-extrabold">Why Choose Us</h4>
+          <h4 className="text-textyellow text-[23px] xl:text-3xl font-extrabold">Why Choose Us</h4>
           <h2 className="my-4 text-2xl xl:text-4xl text-[#000000] font-medium">Safe, guranteed, and easy to use</h2>
           <p className="text-[#444242] font-normal text-xs xl:text-sm">
             Coinnet offers a secure platform with built-in protections, ensuring your transactions are reliable and seamless every time. With an intuitive interface and dedicated support, Coinnet makes crypto accessible for everyone, from beginners to experts.
@@ -140,7 +140,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-7">
           {safeOptions.map((item, index)=>(
-            <div key={index} className="border-2 border-black rounded-lg p-4">
+            <div key={index} className="border-[1px] border-black rounded-lg p-4">
               <div className="p-[3px] border-2 border-[#000000] bg-bgyellow w-[50px] h-[50px] flex justify-center items-center rounded-full">
                 <Image src={item.image} alt="icon" width={30} height={30}/>
               </div>

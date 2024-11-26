@@ -21,13 +21,13 @@ const Footer = () => {
             <h6 className="text-base font-normal text-[#000000] mb-5">
               With Coinnect, enjoy the freedom to spend Bitcoin without limits. Easily access your digital assets for everyday purchases, secure transfers, and seamless transactions, all within a single, powerful platform. Coinnect makes it easy to leverage the full potential of your Bitcoin, wherever you go.
             </h6>
-            <button className="bg-bgyellow w-[300px] p-3 rounded-lg text-lg font-semibold text-foreground my-5">
+            <button className="bg-bgyellow w-[30vw] p-3 rounded-lg text-lg font-semibold text-foreground my-5">
               Get It
             </button>
             <div className="flex items-center space-x-7">
-              <Image src={'/googleplay.svg'} alt="google play" width={150} height={150}/>
+              <Image src={'/googleplay.svg'} alt="google play" width={100} height={150}/>
 
-              <Image src={'/appstore.svg'} alt="google play" width={150} height={150}/>
+              <Image src={'/appstore.svg'} alt="google play" width={100} height={150}/>
             </div>
           </div>
 
@@ -154,7 +154,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-4 my-5 text-center">
-        <p>@ Copywrite, 2024</p>
+        <p>@ Coinnet.2024</p>
       </div>
 
     </section>
