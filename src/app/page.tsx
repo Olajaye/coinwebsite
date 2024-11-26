@@ -116,7 +116,7 @@ export default function Home() {
       <section className="container mx-auto px-4">
         <div className="xl:flex justify-between items-centern my-7">
           <div className="xl:w-[50%] flex justify-center items-center xl:justify-start xl:items-start">
-            <Image src={'/chatimage.svg'} alt="image" width={600} height={400}/>
+            <Image src={'/chatImage.svg'} alt="image" width={600} height={400}/>
           </div>
           <div className="xl:max-w-[50%] mt-10 xl:mt-0 p-3">
             <h2 className="text-3xl xl:text-5xl font-medium mb-5 text-[#000000]">Accelerate the world&apos;s transition</h2>

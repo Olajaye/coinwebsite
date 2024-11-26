@@ -42,7 +42,7 @@ const page = () => {
         <div className='xl:flex'>
 
           <div className='xl:w-[50%] flex justify-center items-center'>
-            <Image src={'/about/image1.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
+            <Image src={'/about/Imagefirst.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
           </div>
 
           <div className='w-2 h-[450px] bg-bgyellow hidden xl:block rounded-ss-lg'></div>
@@ -62,7 +62,7 @@ const page = () => {
 
         <div className='xl:flex mt-6 xl:mt-0'>
           <div className='xl:w-[50%] mt-5 xl:mt-0 xl:order-3 flex justify-center items-center '>
-            <Image src={'/about/image2.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
+            <Image src={'/about/Imagesecond.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
           </div>
           <div className='w-2 h-[450px] bg-bgyellow hidden xl:block xl:order-2'></div>
 
@@ -81,7 +81,7 @@ const page = () => {
 
         <div className='xl:flex mt-6 xl:mt-0'>
           <div className='xl:w-[50%] mt-5 xl:mt-0 flex justify-center items-center '>
-            <Image src={'/about/image3.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
+            <Image src={'/about/Imagethird.svg'} alt='image1' width={100} height={200} className='w-[500px] h-[450px]  lg:w-full  object-cover rounded-lg'/>
           </div>
           <div className='w-2 h-[450px] bg-bgyellow hidden xl:block rounded-ee-lg'></div>
           <div className='xl:w-[50%] flex justify-center items-center xl:px-4 mt-5 xl:mt-0'>
